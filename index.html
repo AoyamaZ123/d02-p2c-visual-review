@@ -3,66 +3,66 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>FIRST LIGHT D02 P2D-R1 Visual Review</title>
+  <title>FIRST LIGHT D02 P2D-R2 Visual Review</title>
   <style>
     :root { color-scheme: dark; font-family: Inter, "Segoe UI", sans-serif; }
-    body { margin: 0; background: #0d1014; color: #eef2f6; }
-    main { width: min(1740px, 96vw); margin: 24px auto 60px; }
-    h1 { margin: 0 0 8px; font-size: clamp(24px, 3vw, 42px); }
-    h2 { margin: 32px 0 12px; }
-    p { margin: 0 0 18px; color: #b6c0ca; }
-    section { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-    figure { margin: 0; background: #171c22; border: 1px solid #39424d; border-radius: 8px; overflow: hidden; }
+    body { margin: 0; background: #101112; color: #eee; }
+    main { width: min(1640px, 96vw); margin: 24px auto 64px; }
+    h1 { margin: 0 0 8px; font-size: clamp(25px, 3vw, 42px); }
+    h2 { margin: 30px 0 12px; }
+    p { margin: 0 0 20px; color: #b9bdc3; line-height: 1.55; }
+    .notice { padding: 14px 16px; background: #182028; border-left: 4px solid #7897b2; }
+    .triple, .details { display: grid; gap: 14px; margin: 14px 0 32px; }
+    .triple { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .details { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    figure { margin: 0; background: #1b1d20; border: 1px solid #34383d; border-radius: 9px; overflow: hidden; }
     img { display: block; width: 100%; height: auto; }
-    figcaption { padding: 10px 12px; font-weight: 650; }
-    .current { border-color: #587ca3; }
-    .reference { border-color: #9b7440; }
-    .wide { border-color: #567d68; }
-    .evidence { border-color: #6e668c; }
-    .metrics { font-variant-numeric: tabular-nums; }
-    @media (max-width: 980px) { section { grid-template-columns: 1fr; } }
+    figcaption { padding: 10px 12px; font-weight: 650; line-height: 1.35; }
+    @media (max-width: 900px) {
+      .triple, .details { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
 <main>
-  <h1>FIRST LIGHT D02 · P2D-R1</h1>
-  <p>最终保存态，固定相机 FOV 为 80 / 80 / 65。每组依次为 Beauty、Gameplay、授权参考；点击可查看原图。</p>
+  <h1>FIRST LIGHT D02 — P2D-R2 Final Candidate</h1>
+  <p class="notice">
+    当前候选与授权 007 场景参考。点击任意图片查看原始分辨率。
+    灯光、天空、曝光、雾和三台固定相机保持冻结；远山植被使用低细节、无阴影、无碰撞的远景轮廓，并启用 1.1–1.45 km 裁剪。
+  </p>
 
-  <h2>Reload</h2>
-  <section>
-    <figure class="current"><a href="current-beauty-reload.png"><img src="current-beauty-reload-thumb.jpg" alt="P2D-R1 Beauty Reload"></a><figcaption>Beauty Reload · FOV 80</figcaption></figure>
-    <figure class="current"><a href="current-gameplay-reload.png"><img src="current-gameplay-reload-thumb.jpg" alt="P2D-R1 Gameplay Reload"></a><figcaption>Gameplay Reload · FOV 80</figcaption></figure>
-    <figure class="reference"><a href="reference-reload.png"><img src="reference-reload-thumb.jpg" alt="Authorized reference Reload"></a><figcaption>授权参考 · Reload</figcaption></figure>
+  <h2>Reload · FOV 80</h2>
+  <section class="triple">
+    <figure><a href="current-reload.png"><img src="current-reload-thumb.jpg" alt="P2D-R2 Beauty Reload"></a><figcaption>P2D-R2 Beauty Reload</figcaption></figure>
+    <figure><a href="gameplay-reload.png"><img src="gameplay-reload-thumb.jpg" alt="P2D-R2 Gameplay Reload"></a><figcaption>P2D-R2 Gameplay Reload</figcaption></figure>
+    <figure><a href="reference-reload.png"><img src="reference-reload-thumb.jpg" alt="Authorized reference Reload"></a><figcaption>授权参考 Reload</figcaption></figure>
   </section>
 
-  <h2>Vault</h2>
-  <section>
-    <figure class="current"><a href="current-beauty-vault.png"><img src="current-beauty-vault-thumb.jpg" alt="P2D-R1 Beauty Vault"></a><figcaption>Beauty Vault · FOV 80</figcaption></figure>
-    <figure class="current"><a href="current-gameplay-vault.png"><img src="current-gameplay-vault-thumb.jpg" alt="P2D-R1 Gameplay Vault"></a><figcaption>Gameplay Vault · FOV 80</figcaption></figure>
-    <figure class="reference"><a href="reference-vault.png"><img src="reference-vault-thumb.jpg" alt="Authorized reference Vault"></a><figcaption>授权参考 · Vault</figcaption></figure>
+  <h2>Vault · FOV 80</h2>
+  <section class="triple">
+    <figure><a href="current-vault.png"><img src="current-vault-thumb.jpg" alt="P2D-R2 Beauty Vault"></a><figcaption>P2D-R2 Beauty Vault</figcaption></figure>
+    <figure><a href="gameplay-vault.png"><img src="gameplay-vault-thumb.jpg" alt="P2D-R2 Gameplay Vault"></a><figcaption>P2D-R2 Gameplay Vault</figcaption></figure>
+    <figure><a href="reference-vault.png"><img src="reference-vault-thumb.jpg" alt="Authorized reference Vault"></a><figcaption>授权参考 Vault</figcaption></figure>
   </section>
 
-  <h2>Aim</h2>
-  <section>
-    <figure class="current"><a href="current-beauty-aim.png"><img src="current-beauty-aim-thumb.jpg" alt="P2D-R1 Beauty Aim"></a><figcaption>Beauty Aim · FOV 65</figcaption></figure>
-    <figure class="current"><a href="current-gameplay-aim.png"><img src="current-gameplay-aim-thumb.jpg" alt="P2D-R1 Gameplay Aim"></a><figcaption>Gameplay Aim · FOV 65</figcaption></figure>
-    <figure class="reference"><a href="reference-aim.png"><img src="reference-aim-thumb.jpg" alt="Authorized reference Aim"></a><figcaption>授权参考 · Aim</figcaption></figure>
+  <h2>Aim · FOV 65</h2>
+  <section class="triple">
+    <figure><a href="current-aim.png"><img src="current-aim-thumb.jpg" alt="P2D-R2 Beauty Aim"></a><figcaption>P2D-R2 Beauty Aim</figcaption></figure>
+    <figure><a href="gameplay-aim.png"><img src="gameplay-aim-thumb.jpg" alt="P2D-R2 Gameplay Aim"></a><figcaption>P2D-R2 Gameplay Aim</figcaption></figure>
+    <figure><a href="reference-aim.png"><img src="reference-aim-thumb.jpg" alt="Authorized reference Aim"></a><figcaption>授权参考 Aim</figcaption></figure>
   </section>
 
-  <h2>额外水平场景覆盖</h2>
-  <p>同一审查原点，水平朝向 65° / 155° / 245°，相邻方向差 90°。</p>
-  <section>
-    <figure class="wide"><a href="wide-065.png"><img src="wide-065-thumb.jpg" alt="Wide view 65 degrees"></a><figcaption>Wide 065°</figcaption></figure>
-    <figure class="wide"><a href="wide-155.png"><img src="wide-155-thumb.jpg" alt="Wide view 155 degrees"></a><figcaption>Wide 155°</figcaption></figure>
-    <figure class="wide"><a href="wide-245.png"><img src="wide-245-thumb.jpg" alt="Wide view 245 degrees"></a><figcaption>Wide 245°</figcaption></figure>
+  <h2>版本与缩略图验证</h2>
+  <section class="triple">
+    <figure><a href="version-contact.png"><img src="version-contact-thumb.jpg" alt="P2D-R1 and P2D-R2 version contact sheet"></a><figcaption>P2D-R1 / P2D-R2 版本对比</figcaption></figure>
+    <figure><a href="grayscale-contact.png"><img src="grayscale-contact-thumb.jpg" alt="Grayscale contact sheet"></a><figcaption>320×180 灰度检查</figcaption></figure>
+    <figure><a href="blurred-contact.png"><img src="blurred-contact-thumb.jpg" alt="Gaussian blur contact sheet"></a><figcaption>320×180 高斯模糊检查</figcaption></figure>
   </section>
 
-  <h2>缩略图与差分证据</h2>
-  <p class="metrics">5px Gaussian Blur + RGB 阈值 20；最大连续变化区域：Reload 1.551%，Vault 3.779%，Aim 4.910%，均落在对应人物/敌人 ROI。</p>
-  <section>
-    <figure class="evidence"><a href="D02_P2D_R1_VersionContactSheet.png"><img src="D02_P2D_R1_VersionContactSheet.png" alt="P2C P2D P2D-R1 comparison"></a><figcaption>P2C / P2D / P2D-R1</figcaption></figure>
-    <figure class="evidence"><a href="D02_P2D_R1_GrayscaleContactSheet.png"><img src="D02_P2D_R1_GrayscaleContactSheet.png" alt="Grayscale contact sheet"></a><figcaption>320×180 灰度</figcaption></figure>
-    <figure class="evidence"><a href="D02_P2D_R1_BlurredContactSheet.png"><img src="D02_P2D_R1_BlurredContactSheet.png" alt="Gaussian blur contact sheet"></a><figcaption>320×180 高斯模糊</figcaption></figure>
+  <h2>地面与肩部生态细节</h2>
+  <section class="details">
+    <figure><a href="detail-ground-macro.png"><img src="detail-ground-macro-thumb.jpg" alt="Ground macro detail"></a><figcaption>地面 Macro：分缝、修补、污迹与接触脏污</figcaption></figure>
+    <figure><a href="detail-shoulder.png"><img src="detail-shoulder-thumb.jpg" alt="Shoulder ecology detail"></a><figcaption>肩部生态：非平行过渡、低草与疏密变化</figcaption></figure>
   </section>
 </main>
 </body>
